@@ -1,0 +1,130 @@
+ body{
+    background-image: url("image/Mountain\ \(3840x2160\).jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#form{
+    background-color: white;
+    width : 40%;
+    margin: 120px auto;
+    padding :60px;
+     box-shadow: 10px 10px 5px rgb(82,11,77); 
+    border-radius: 6px;
+    background:  rgba(255, 255, 255, 0.1);
+    box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+
+} 
+
+ #btn{
+    color: black;
+    background-color: rgb(165, 122, 165);
+    padding: 10px;
+    font-size: small;
+    border-radius: 10px;
+} 
+
+@media screen and(max-width:700px){
+    #form{
+        width: 65%;
+        padding: 40px;
+    }
+}
+
+#welcome{
+    
+    background-image: url("image/Sleepy\ cat\ animation\,\ Ngan\ Pham.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#hhh{
+    background-image: url("image/Sleepy cat animation, Ngan Pham.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+#sql{
+    background-color: white;
+    width : 40%;
+    margin: 120px auto;
+    padding :60px;
+    /* box-shadow: 10px 10px 5px rgb(82,11,77); */
+    border-radius: 6px;
+    background:  rgba(255, 255, 255, 0.1);
+    box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+
+
+
+}
+
+#icc{
+    color: black;
+    background-color: rgb(165, 122, 165);
+    padding: 10px;
+    font-size: small;
+    border-radius: 10px;
+}
+
+#complain_form{
+   
+    background-image: url("image/Low\ Poly\ Landscapes.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+
+#kkk{
+    
+    background-image: url("image/Blue\ Watercolor\ Landscape\ Computer\ Desktop\ Wallpaper\ Background\,\ Blue\,\ Watercolor\,\ Landscape\ Background\ Image\ And\ Wallpaper\ for\ Free\ Download.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+#lilo{
+    background-color: white;
+    width : 40%;
+    margin: 120px auto;
+    padding :60px;
+    /* box-shadow: 10px 10px 5px rgb(82,11,77); */
+    border-radius: 6px;
+    background:  rgba(255, 255, 255, 0.1);
+    box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+
+}
+
+#complain{
+    /* color: white; */
+
+  
+    width : 40%;
+    margin: 120px auto;
+    padding :60px;
+    box-shadow: 10px 10px 5px rgb(82,11,77); 
+    border-radius: 6px;
+    background:  rgba(255, 255, 255, 0.1);
+    box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+    
+}
+
+#complain_submit{
+    color: black;
+    background-color: pink;
+    padding: 10px;
+    font-size: small;
+    border-radius: 10px;
+}

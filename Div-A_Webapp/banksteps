@@ -1,0 +1,34 @@
+Registration(signup) -> user enter all details -> insert operation in table user_det.
+
+1. Login -> user input accountno & password -> check inputted data from user_det table ->  (mysql dummy data inserted) fetching the data from table -> submit login page check inputted data and fetch data (table) are same or not -> result login success or fail
+
+login sucess-> redirect to welcome page -> display accountno-> 3 hyperlinks create -> user profile, account type and transaction details
+
+login fail-> redirect to login page with appropriate message. 
+
+1st hyperlink (accounttype) -> redirect to page accounttype (for adding new record) -> create a form (columns need to insert in table) -> submit to table for adding record -> database class function call and insert operation
+
+if insert success->  then redirect to display accounttype page and show (fetch data) all accounttype from the table.
+if not then redirect to accounttype form with appropriate error message.
+
+2nd hyperlink (transdetails) -> redirect to page transaction details (to generate or add new transaction) -> pass accountno (logined user) using hyperlink to this transaction detail page -> create form with respective fields in the table -> fetch accountno(hyperlink) and accounttype(from parent accounttype table) -> display accountno and type into appropriate form controls ->  add other controls (fields) to the form and submit-> call database class function and do insert operation in transaction details table -> balance update. 
+
+for balance column (user details) -> debit 500rs. -> do minus opertaion or credit 500rs. do plus operation and update balance.
+
+display all transactions to user.
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
