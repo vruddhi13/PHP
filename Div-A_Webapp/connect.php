@@ -18,7 +18,7 @@ class DatabaseConnection
             die ("<h1>Database Connection Failed</h1>");
         }
         else{
-        //echo "Database Connected Successfully";
+        //echo "Database Connected Successfully"; removed
 
         return $this->c1;
     	}
